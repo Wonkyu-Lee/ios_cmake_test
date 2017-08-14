@@ -1,0 +1,327 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8C51EC881F416D6900C73E81 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C51EC871F416D6900C73E81 /* main.cpp */; };
+		8C51ECCB1F419DDB00C73E81 /* libqutil.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C51ECB81F416EAF00C73E81 /* libqutil.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8C51ECB71F416EAF00C73E81 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8C51ECB11F416EAF00C73E81 /* qutil.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8C51EC971F416D8F00C73E81;
+			remoteInfo = qutil;
+		};
+		8C51ECC51F416FBE00C73E81 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8C51ECC11F416FBE00C73E81 /* qutil.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8C51EC971F416D8F00C73E81;
+			remoteInfo = qutil;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		8C51EC821F416D6900C73E81 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		8C51EC841F416D6900C73E81 /* qapp */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = qapp; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C51EC871F416D6900C73E81 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		8C51ECB11F416EAF00C73E81 /* qutil.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = qutil.xcodeproj; path = ../qutil/qutil.xcodeproj; sourceTree = "<group>"; };
+		8C51ECC11F416FBE00C73E81 /* qutil.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = qutil.xcodeproj; path = ../qutil/qutil.xcodeproj; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8C51EC811F416D6900C73E81 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C51ECCB1F419DDB00C73E81 /* libqutil.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8C51EC7B1F416D6900C73E81 = {
+			isa = PBXGroup;
+			children = (
+				8C51ECC11F416FBE00C73E81 /* qutil.xcodeproj */,
+				8C51ECB11F416EAF00C73E81 /* qutil.xcodeproj */,
+				8C51EC861F416D6900C73E81 /* qapp */,
+				8C51EC851F416D6900C73E81 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8C51EC851F416D6900C73E81 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8C51EC841F416D6900C73E81 /* qapp */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8C51EC861F416D6900C73E81 /* qapp */ = {
+			isa = PBXGroup;
+			children = (
+				8C51EC871F416D6900C73E81 /* main.cpp */,
+			);
+			path = qapp;
+			sourceTree = "<group>";
+		};
+		8C51ECB21F416EAF00C73E81 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8C51ECB81F416EAF00C73E81 /* libqutil.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8C51ECC21F416FBE00C73E81 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8C51ECC61F416FBE00C73E81 /* libqutil.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8C51EC831F416D6900C73E81 /* qapp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C51EC8B1F416D6900C73E81 /* Build configuration list for PBXNativeTarget "qapp" */;
+			buildPhases = (
+				8C51EC801F416D6900C73E81 /* Sources */,
+				8C51EC811F416D6900C73E81 /* Frameworks */,
+				8C51EC821F416D6900C73E81 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = qapp;
+			productName = qapp;
+			productReference = 8C51EC841F416D6900C73E81 /* qapp */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8C51EC7C1F416D6900C73E81 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = blazeq;
+				TargetAttributes = {
+					8C51EC831F416D6900C73E81 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = VVKN5X3HDD;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 8C51EC7F1F416D6900C73E81 /* Build configuration list for PBXProject "qapp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8C51EC7B1F416D6900C73E81;
+			productRefGroup = 8C51EC851F416D6900C73E81 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 8C51ECB21F416EAF00C73E81 /* Products */;
+					ProjectRef = 8C51ECB11F416EAF00C73E81 /* qutil.xcodeproj */;
+				},
+				{
+					ProductGroup = 8C51ECC21F416FBE00C73E81 /* Products */;
+					ProjectRef = 8C51ECC11F416FBE00C73E81 /* qutil.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				8C51EC831F416D6900C73E81 /* qapp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		8C51ECB81F416EAF00C73E81 /* libqutil.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libqutil.a;
+			remoteRef = 8C51ECB71F416EAF00C73E81 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		8C51ECC61F416FBE00C73E81 /* libqutil.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libqutil.a;
+			remoteRef = 8C51ECC51F416FBE00C73E81 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8C51EC801F416D6900C73E81 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C51EC881F416D6900C73E81 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		8C51EC891F416D6900C73E81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		8C51EC8A1F416D6900C73E81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		8C51EC8C1F416D6900C73E81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = VVKN5X3HDD;
+				HEADER_SEARCH_PATHS = ../qutil/qutil;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8C51EC8D1F416D6900C73E81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = VVKN5X3HDD;
+				HEADER_SEARCH_PATHS = ../qutil/qutil;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8C51EC7F1F416D6900C73E81 /* Build configuration list for PBXProject "qapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C51EC891F416D6900C73E81 /* Debug */,
+				8C51EC8A1F416D6900C73E81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C51EC8B1F416D6900C73E81 /* Build configuration list for PBXNativeTarget "qapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C51EC8C1F416D6900C73E81 /* Debug */,
+				8C51EC8D1F416D6900C73E81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8C51EC7C1F416D6900C73E81 /* Project object */;
+}

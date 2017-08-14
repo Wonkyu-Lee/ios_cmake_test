@@ -1,0 +1,307 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8C51EC9B1F416D8F00C73E81 /* qutil.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 8C51EC9A1F416D8F00C73E81 /* qutil.hpp */; };
+		8C51EC9D1F416D8F00C73E81 /* qutilPriv.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 8C51EC9C1F416D8F00C73E81 /* qutilPriv.hpp */; };
+		8C51EC9F1F416D8F00C73E81 /* qutil.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C51EC9E1F416D8F00C73E81 /* qutil.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8C51ECBD1F416FA800C73E81 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8C51ECB91F416FA800C73E81 /* qapp.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8C51EC841F416D6900C73E81;
+			remoteInfo = qapp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8C51EC971F416D8F00C73E81 /* libqutil.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libqutil.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C51EC9A1F416D8F00C73E81 /* qutil.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = qutil.hpp; sourceTree = "<group>"; };
+		8C51EC9C1F416D8F00C73E81 /* qutilPriv.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = qutilPriv.hpp; sourceTree = "<group>"; };
+		8C51EC9E1F416D8F00C73E81 /* qutil.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = qutil.cpp; sourceTree = "<group>"; };
+		8C51ECB91F416FA800C73E81 /* qapp.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = qapp.xcodeproj; path = ../qapp/qapp.xcodeproj; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8C51EC941F416D8F00C73E81 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8C51EC8E1F416D8F00C73E81 = {
+			isa = PBXGroup;
+			children = (
+				8C51ECB91F416FA800C73E81 /* qapp.xcodeproj */,
+				8C51EC991F416D8F00C73E81 /* qutil */,
+				8C51EC981F416D8F00C73E81 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8C51EC981F416D8F00C73E81 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8C51EC971F416D8F00C73E81 /* libqutil.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8C51EC991F416D8F00C73E81 /* qutil */ = {
+			isa = PBXGroup;
+			children = (
+				8C51EC9A1F416D8F00C73E81 /* qutil.hpp */,
+				8C51EC9C1F416D8F00C73E81 /* qutilPriv.hpp */,
+				8C51EC9E1F416D8F00C73E81 /* qutil.cpp */,
+			);
+			path = qutil;
+			sourceTree = "<group>";
+		};
+		8C51ECBA1F416FA800C73E81 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8C51ECBE1F416FA800C73E81 /* qapp */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		8C51EC951F416D8F00C73E81 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C51EC9B1F416D8F00C73E81 /* qutil.hpp in Headers */,
+				8C51EC9D1F416D8F00C73E81 /* qutilPriv.hpp in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		8C51EC961F416D8F00C73E81 /* qutil */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C51ECA21F416D8F00C73E81 /* Build configuration list for PBXNativeTarget "qutil" */;
+			buildPhases = (
+				8C51EC931F416D8F00C73E81 /* Sources */,
+				8C51EC941F416D8F00C73E81 /* Frameworks */,
+				8C51EC951F416D8F00C73E81 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = qutil;
+			productName = qutil;
+			productReference = 8C51EC971F416D8F00C73E81 /* libqutil.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8C51EC8F1F416D8F00C73E81 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = blazeq;
+				TargetAttributes = {
+					8C51EC961F416D8F00C73E81 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = VVKN5X3HDD;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 8C51EC921F416D8F00C73E81 /* Build configuration list for PBXProject "qutil" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8C51EC8E1F416D8F00C73E81;
+			productRefGroup = 8C51EC981F416D8F00C73E81 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 8C51ECBA1F416FA800C73E81 /* Products */;
+					ProjectRef = 8C51ECB91F416FA800C73E81 /* qapp.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				8C51EC961F416D8F00C73E81 /* qutil */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		8C51ECBE1F416FA800C73E81 /* qapp */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = qapp;
+			remoteRef = 8C51ECBD1F416FA800C73E81 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8C51EC931F416D8F00C73E81 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C51EC9F1F416D8F00C73E81 /* qutil.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		8C51ECA01F416D8F00C73E81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		8C51ECA11F416D8F00C73E81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		8C51ECA31F416D8F00C73E81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = VVKN5X3HDD;
+				EXECUTABLE_PREFIX = lib;
+				GCC_ENABLE_CPP_EXCEPTIONS = YES;
+				GCC_ENABLE_CPP_RTTI = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8C51ECA41F416D8F00C73E81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = VVKN5X3HDD;
+				EXECUTABLE_PREFIX = lib;
+				GCC_ENABLE_CPP_EXCEPTIONS = YES;
+				GCC_ENABLE_CPP_RTTI = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8C51EC921F416D8F00C73E81 /* Build configuration list for PBXProject "qutil" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C51ECA01F416D8F00C73E81 /* Debug */,
+				8C51ECA11F416D8F00C73E81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C51ECA21F416D8F00C73E81 /* Build configuration list for PBXNativeTarget "qutil" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C51ECA31F416D8F00C73E81 /* Debug */,
+				8C51ECA41F416D8F00C73E81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8C51EC8F1F416D8F00C73E81 /* Project object */;
+}

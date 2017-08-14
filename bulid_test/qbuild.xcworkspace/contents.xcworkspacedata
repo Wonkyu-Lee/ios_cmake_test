@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:qutil/qutil.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:qapp/qapp.xcodeproj">
+   </FileRef>
+</Workspace>
